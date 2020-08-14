@@ -10,11 +10,11 @@
   <%= @user.email %>
 </p>
 
-<p>
-  <strong>Micoropost:</strong>
+<!--<p>-->
+<!--  <strong>Micoropost:</strong>-->
   <!--@user.micropostsのcontentは複数存在するので、@user.microposts.contentだけだとエラーになる。-->
-  <%= @user.microposts.first.content %>
-</p>
+<!--  %= @user.microposts.first.content %>-->
+<!--</p>-->
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
